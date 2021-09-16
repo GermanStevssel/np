@@ -8,8 +8,12 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+  <!-- Iconos Icomoon -->
+  <link rel="stylesheet" href="css/icomoon/style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Nutrición Profesional</title>
 </head>
@@ -19,6 +23,10 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <a class="navbar-brand" href="#">
           <div class="d-flex">
             <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
@@ -29,10 +37,6 @@
             </div>
           </div>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -45,7 +49,7 @@
               <a class="nav-link" href="#">¿QUIÉNES SOMOS?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACTO</a>
+              <a class="nav-link" href="contacto.html">CONTACTO</a>
             </li>
           </ul>
         </div>
@@ -58,7 +62,7 @@
   <main>
     <section class="container">
       <div class="row">
-        <div class="col d-flex flex-column">
+        <div class="col d-flex flex-column quienes-somos">
           <h1>¿quiénes somos?</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae, iusto magnam eveniet delectus
             facilis.</p>
@@ -66,8 +70,8 @@
         </div>
       </div>
     </section>
-    <section>
-      <h2>nuestras viandas</h2>
+    <section class="container">
+      <h3>nuestras viandas</h3>
       <div>
         <!-- Slider horizontal -->
       </div>
@@ -75,11 +79,30 @@
   </main>
   <!-- Fin Sección Principal-->
 
+  <!-- Boton de whatsapp -->
+  <div class="btn-whatsapp">
+    <a href="">
+      <i class="icon-whatsapp path1"></i>
+      <i class="icon-whatsapp path2"></i>
+    </a>
+  </div>
+
   <!-- Inicio footer -->
   <footer>
-    <!-- Footer -->
+    <section class="container">
+      <div class="d-flex flex-column align-items-center">
+        <p>Contactanos</p>
+        <div>
+          <i class="icon-instagram"></i>
+          <i class="icon-facebook"></i>
+          <i class="icon-tiktok"></i>
+        </div>
+        <p>Seguinos en redes y enterate de todas nuestras novedades</p>
+      </div>
+    </section>
   </footer>
   <!-- Fin footer -->
+
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->

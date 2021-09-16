@@ -1,7 +1,25 @@
-@import "variables/colores";
+@import '../variables/colores';
 
 .titulo {
     color: $color-naranja;
     font-size: 1rem;
     text-align: center;
+}
+
+.quienes-somos {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: $color-naranja2;
+    border-radius: 10px;
+
+    h1 {
+       font-size: 1.875rem; 
+       font-weight: 400;
+       text-transform: uppercase;
+    }
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
 }
