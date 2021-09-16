@@ -17,9 +17,30 @@
        font-weight: 400;
        text-transform: uppercase;
     }
+
+    a {
+        text-decoration: none; 
+
+        &.ver-mas {
+            color: $color-naranja;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+        }
+
+        &::before {
+            content: '+';
+            font-size: 1.5rem;
+            height: 100%;
+            vertical-align: baseline;
+            padding-right: 0.688rem;
+        }
+    }
+
+    
 }
 
 h3 {
     font-size: 1.25rem;
     text-transform: uppercase;
 }
+
