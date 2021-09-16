@@ -1,5 +1,29 @@
-nav {
-  width: 100%;
-  height: 23vh;
-  box-shadow: 0px 0.4px 0.8px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.2);
+@import '../variables/fuentes';
+@import '../variables/colores';
+
+
+@media (max-width: 576px) {
+  
+  nav {
+    width: 100%;
+    height: 23vh;
+    box-shadow: 0px 0.4px 0.8px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.2);
+    
+    .contenedorTitulo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .titulo {
+        color: $color-naranja;
+        font-size: 1rem;
+        text-align: center;
+        font-family: $yanone;
+    }
+    }
+    .navLinks {
+      font-family: $yanone;
+    }
+  }
 }
