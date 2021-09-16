@@ -4,6 +4,12 @@
   scroll-behavior: smooth;
   box-sizing: border-box; }
 
+.btn-whatsapp a {
+  text-decoration: none;
+  position: fixed;
+  right: 30px;
+  bottom: 40px; }
+
 .titulo {
   color: #EC6228;
   font-size: 1rem;

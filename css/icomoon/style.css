@@ -40,11 +40,13 @@
 .icon-whatsapp .path1:before {
   content: "\e903";
   font-size: 2.9rem;
+  font-style: normal;
   color: rgb(76, 175, 80);
 }
 .icon-whatsapp .path2:before {
   content: "\e904";
   font-size: 2.9rem;
-  margin-left: -1em;
+  font-style: normal;
+  margin-left: -1.15em;
   color: rgb(250, 250, 250);
 }
