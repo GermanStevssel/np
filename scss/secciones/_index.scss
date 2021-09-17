@@ -1,5 +1,6 @@
 @import '../variables/colores';
 @import '../variables/fuentes';
+@import '../utilities/extends';
 
 
 
@@ -20,10 +21,7 @@
     }
 
     .quienes-somos {
-        margin: 2rem 1rem .75rem;
-        padding: 1rem;
-        background-color: $color-naranja2;
-        border-radius: 10px;
+        @extend %cuadro-naranja;
     
         h1 {
             font-family: $yanone;

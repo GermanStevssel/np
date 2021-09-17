@@ -51,6 +51,14 @@ p {
 
 /* MOBILE */
 @media (max-width: 576px) {
+  .quienes-somos, .nosotras {
+    margin: 2rem 1rem .75rem;
+    padding: 1rem;
+    background-color: rgba(255, 198, 173, 0.4);
+    border-radius: 10px; } }
+
+/* MOBILE */
+@media (max-width: 576px) {
   .navbar-brand {
     margin: 0;
     padding: .625rem 0; }
@@ -59,25 +67,20 @@ p {
     right: 0;
     left: 0;
     bottom: 0; }
-  .quienes-somos {
-    margin: 2rem 1rem .75rem;
-    padding: 1rem;
-    background-color: rgba(255, 198, 173, 0.4);
-    border-radius: 10px; }
-    .quienes-somos h1 {
-      font-family: "Yanone Kaffeesatz", sans-serif;
-      font-size: 1.875rem;
-      font-weight: 400;
+  .quienes-somos h1 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .quienes-somos a {
+    text-decoration: none; }
+    .quienes-somos a.ver-mas {
+      display: flex;
+      align-items: center;
+      color: #EC6228;
       text-transform: uppercase; }
-    .quienes-somos a {
-      text-decoration: none; }
-      .quienes-somos a.ver-mas {
-        display: flex;
-        align-items: center;
-        color: #EC6228;
-        text-transform: uppercase; }
-        .quienes-somos a.ver-mas p {
-          font-size: 0.875rem; }
+      .quienes-somos a.ver-mas p {
+        font-size: 0.875rem; }
   h3 {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 1.25rem;
@@ -85,6 +88,13 @@ p {
   .nuestras-viandas {
     margin: 0 1rem .75rem;
     padding: 0 1rem; } }
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .imagen__nosotras {
+    width: 100%; }
+  .nosotras {
+    margin-top: 1rem; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
