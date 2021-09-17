@@ -7,7 +7,8 @@
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  line-height: 24px; }
+  line-height: 24px;
+  margin-bottom: 0; }
 
 .btn-whatsapp {
   position: absolute;
@@ -42,7 +43,7 @@ p {
 /* MOBILE */
 @media (max-width: 576px) {
   .quienes-somos {
-    margin: 2rem;
+    margin: 2rem 1rem .75rem;
     padding: 1rem;
     background-color: rgba(255, 198, 173, 0.4);
     border-radius: 10px; }
@@ -54,19 +55,19 @@ p {
     .quienes-somos a {
       text-decoration: none; }
       .quienes-somos a.ver-mas {
+        display: flex;
+        align-items: center;
         color: #EC6228;
-        font-size: 0.875rem;
         text-transform: uppercase; }
-      .quienes-somos a::before {
-        content: '+';
-        font-size: 1.5rem;
-        height: 100%;
-        vertical-align: baseline;
-        padding-right: 0.688rem; }
+        .quienes-somos a.ver-mas p {
+          font-size: 0.875rem; }
   h3 {
     font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 1.25rem;
-    text-transform: uppercase; } }
+    text-transform: uppercase; }
+  .nuestras-viandas {
+    margin: 2rem 1rem .75rem;
+    padding: 1rem; } }
 
 /* MOBILE */
 @media (max-width: 576px) {

@@ -8,7 +8,7 @@
 @media (max-width: 576px) {
 
     .quienes-somos {
-        margin: 2rem;
+        margin: 2rem 1rem .75rem;
         padding: 1rem;
         background-color: $color-naranja2;
         border-radius: 10px;
@@ -24,17 +24,14 @@
             text-decoration: none;
     
             &.ver-mas {
+                display: flex;
+                align-items: center;
                 color: $color-naranja;
-                font-size: 0.875rem;
                 text-transform: uppercase;
-            }
-    
-            &::before {
-                content: '+';
-                font-size: 1.5rem;
-                height: 100%;
-                vertical-align: baseline;
-                padding-right: 0.688rem;
+
+                p {
+                    font-size: 0.875rem;
+                }
             }
         }
     }
@@ -45,5 +42,11 @@
         text-transform: uppercase;
     }
 
+    .nuestras-viandas {
+        margin: 2rem 1rem .75rem;
+        padding: 1rem;
+    }
+
 }
+
 
