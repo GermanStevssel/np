@@ -55,7 +55,12 @@ p {
     margin: 2rem 1rem .75rem;
     padding: 1rem;
     background-color: rgba(255, 198, 173, 0.4);
-    border-radius: 10px; } }
+    border-radius: 10px; }
+  .quienes-somos h1, .nosotras h1 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-transform: uppercase; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
@@ -67,11 +72,6 @@ p {
     right: 0;
     left: 0;
     bottom: 0; }
-  .quienes-somos h1 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1.875rem;
-    font-weight: 400;
-    text-transform: uppercase; }
   .quienes-somos a {
     text-decoration: none; }
     .quienes-somos a.ver-mas {
@@ -94,7 +94,16 @@ p {
   .imagen__nosotras {
     width: 100%; }
   .nosotras {
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+  .nuestra-historia {
+    margin: 1.25rem 1rem 0.75rem;
+    padding: 0 1rem; }
+    .nuestra-historia h2 {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      font-size: 1.5rem;
+      font-weight: normal;
+      line-height: 28px;
+      text-transform: uppercase; } }
 
 /* MOBILE */
 @media (max-width: 576px) {

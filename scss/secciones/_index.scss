@@ -24,10 +24,7 @@
         @extend %cuadro-naranja;
     
         h1 {
-            font-family: $yanone;
-            font-size: 1.875rem;
-            font-weight: 400;
-            text-transform: uppercase;
+            @extend %h1-cuadro-naranja
         }
     
         a {
