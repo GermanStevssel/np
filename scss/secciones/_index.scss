@@ -7,6 +7,17 @@
  /* MOBILE */
 @media (max-width: 576px) {
 
+    .navbar-brand {
+        margin: 0;
+    }
+
+    .logo__index {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
     .quienes-somos {
         margin: 2rem 1rem .75rem;
         padding: 1rem;
@@ -43,8 +54,8 @@
     }
 
     .nuestras-viandas {
-        margin: 2rem 1rem .75rem;
-        padding: 1rem;
+        margin: 0 1rem .75rem;
+        padding: 0 1rem;
     }
 
 }
