@@ -1,6 +1,13 @@
+@import '../variables/fuentes';
+
 * {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
+}
+
+p {
+  font-family: $roboto;
+  line-height: 24px;
 }
