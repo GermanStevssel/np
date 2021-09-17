@@ -52,7 +52,8 @@ p {
 /* MOBILE */
 @media (max-width: 576px) {
   .navbar-brand {
-    margin: 0; }
+    margin: 0;
+    padding: .625rem 0; }
   .logo__index {
     position: absolute;
     right: 0;
