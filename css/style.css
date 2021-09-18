@@ -1,3 +1,16 @@
+/* MOBILE */
+@media (max-width: 576px) {
+  .quienes-somos, .nosotras {
+    margin: 2rem 1rem .75rem;
+    padding: 1rem;
+    background-color: rgba(255, 198, 173, 0.4);
+    border-radius: 10px; }
+  .quienes-somos h1, .nosotras h1 {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-transform: uppercase; } }
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +26,7 @@ p {
 .btn-whatsapp {
   position: absolute;
   width: 56px;
-  height: 56px;
-  left: -4px;
-  top: 0px; }
+  height: 56px; }
   .btn-whatsapp a {
     text-decoration: none;
     position: fixed;
@@ -48,19 +59,6 @@ p {
         text-align: center; }
     nav .navLinks {
       font-family: "Yanone Kaffeesatz", sans-serif; } }
-
-/* MOBILE */
-@media (max-width: 576px) {
-  .quienes-somos, .nosotras {
-    margin: 2rem 1rem .75rem;
-    padding: 1rem;
-    background-color: rgba(255, 198, 173, 0.4);
-    border-radius: 10px; }
-  .quienes-somos h1, .nosotras h1 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1.875rem;
-    font-weight: 400;
-    text-transform: uppercase; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
