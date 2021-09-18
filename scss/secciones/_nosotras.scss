@@ -1,10 +1,6 @@
  /* MOBILE */
  @media (max-width: 576px) {
 
-  .imagen__nosotras {
-    width: 100%;
-  }
-
   .nosotras {
     @extend %cuadro-naranja;
     margin-top: 1rem;
