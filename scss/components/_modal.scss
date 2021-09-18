@@ -1,11 +1,24 @@
 /* MOBILE */
 @media (max-width: 576px) {
-  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $color-negroTransp2;
+    z-index: 9998;}
+
   .modalContacto {
-    background-color: $color-negro2;
+    background-color: $color-negro;
     color: $color-blanco;
     border-radius: 10px;
     width: 90vw;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 
     .modalCaja {
       .contenedorDatos {
