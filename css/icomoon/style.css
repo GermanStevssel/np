@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?dm5f6r');
-  src:  url('fonts/icomoon.eot?dm5f6r#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?dm5f6r') format('truetype'),
-    url('fonts/icomoon.woff?dm5f6r') format('woff'),
-    url('fonts/icomoon.svg?dm5f6r#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?4cy4ul');
+  src:  url('fonts/icomoon.eot?4cy4ul#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4cy4ul') format('truetype'),
+    url('fonts/icomoon.woff?4cy4ul') format('woff'),
+    url('fonts/icomoon.svg?4cy4ul#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-whatsappModal:before {
+  content: "\e906";
+  font-size: 2.5rem;
+}
 .icon-mas:before {
   content: "\e905";
   color: #ec6228;

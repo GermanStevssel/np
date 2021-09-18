@@ -1,7 +1,43 @@
 /* MOBILE */
 @media (max-width: 576px) {
-  .modal {
+  
+  .modalContacto {
     background-color: $color-negro2;
     color: $color-blanco;
+    border-radius: 10px;
+    width: 90vw;
+
+    .modalCaja {
+      .contenedorDatos {
+        width: 100%;
+        margin-bottom: 2rem;
+        
+        p {
+          text-align: start
+        }
+      }
+
+      p {
+        font-family: $roboto;
+        line-height: 24px;
+        margin: 2% 5%;
+        text-align: center;
+      }
+
+      .datosContacto {
+        font-weight: bold ;
+      }
+
+      .modalRedes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+
+        i {
+          margin: 0 10%;
+        }
+      }
+    }
   }
 }
