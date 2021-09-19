@@ -11,13 +11,14 @@
     z-index: 9998;}
 
   .modalContacto {
+    // display: none;
     background-color: $color-negro;
     color: $color-blanco;
     border-radius: 10px;
-    width: 90vw;
+    width: 90%;
     position: absolute;
     top: 45%;
-    right: -100vw;
+    left: -100vw;
     z-index: 9999;
     transition: all .1s linear;
 

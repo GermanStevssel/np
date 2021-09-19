@@ -9,7 +9,7 @@ function mostrarContacto() {
 // Función para ocultar modal
 function ocultarModal() {
 	$('.modalContacto').animate({
-		right: '-200vw'}
+		left: '-200vw'}
 	)
 	$('.overlay').fadeOut('slow')
 }
