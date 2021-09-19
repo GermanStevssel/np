@@ -1,6 +1,7 @@
 /* MOBILE */
 @media (max-width: 576px) {
   .overlay {
+    display: none;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -16,9 +17,9 @@
     width: 90vw;
     position: absolute;
     top: 45%;
-    left: 0;
-    right: 0;
+    right: -100vw;
     z-index: 9999;
+    transition: all .1s linear;
 
     .modalCaja {
       .contenedorDatos {
