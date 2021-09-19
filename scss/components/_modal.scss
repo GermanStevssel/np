@@ -1,5 +1,6 @@
 /* MOBILE */
 @media (max-width: 576px) {
+
   .overlay {
     display: none;
     width: 100%;
@@ -11,14 +12,13 @@
     z-index: 9998;}
 
   .modalContacto {
-    // display: none;
     background-color: $color-negro;
     color: $color-blanco;
     border-radius: 10px;
     width: 90%;
     position: absolute;
     top: 45%;
-    left: -100vw;
+    right: -100vw;
     z-index: 9999;
     transition: all .1s linear;
 
