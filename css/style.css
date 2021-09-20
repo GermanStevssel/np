@@ -119,7 +119,7 @@ p {
     width: 90%;
     position: absolute;
     top: 45%;
-    right: -100vw;
+    left: -100vw;
     z-index: 9999;
     transition: all .1s linear; }
     .modalContacto .modalCaja .contenedorDatos {
