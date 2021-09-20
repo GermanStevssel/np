@@ -1,6 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-}
+@import 'variables/fuentes';
+@import 'variables/colores';
+@import 'utilities/extends';
+@import 'base/reset';
+@import 'components/botones';
+@import 'secciones/nav';
+@import 'secciones/index';
+@import 'secciones/nosotras';
+@import 'secciones/viandas';
+@import 'components/modal';
+@import 'secciones/footer';
+

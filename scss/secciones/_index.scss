@@ -1,0 +1,52 @@
+ /* MOBILE */
+@media (max-width: 576px) {
+
+    .navbar-brand {
+        margin: 0;
+        padding: .625rem 0;
+    }
+
+    .logo__index {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .quienes-somos {
+        @extend %cuadro-naranja;
+    
+        h1 {
+            @extend %h1-cuadro-naranja
+        }
+    
+        a {
+            text-decoration: none;
+    
+            &.ver-mas {
+                display: flex;
+                align-items: center;
+                color: $color-naranja;
+                text-transform: uppercase;
+
+                p {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+    
+    h3 {
+        font-family: $yanone;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+    }
+
+    .nuestras-viandas {
+        margin: 0 1rem .75rem;
+        padding: 0 1rem;
+    }
+
+}
+
+

@@ -1,0 +1,27 @@
+/* MOBILE */
+@media (max-width: 576px) {
+
+    .footer {
+        background-color: $color-negro2;
+        color: $color-blanco;
+
+        .footerCaja {
+            p {
+                font-family: $roboto;
+                text-align: center;
+                line-height: 24px;
+                margin: 2% 5%;
+            }
+
+            .footerRedes {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                i {
+                    margin: 0 15%;
+                }
+            }
+        }
+    }
+}

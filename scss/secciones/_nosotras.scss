@@ -1,0 +1,25 @@
+ /* MOBILE */
+ @media (max-width: 576px) {
+
+  .nosotras {
+    @extend %cuadro-naranja;
+    margin-top: 1rem;
+
+    h1 {
+      @extend %h1-cuadro-naranja
+    }
+  }
+
+  .nuestra-historia {
+    margin: .5rem 1rem 1rem;
+    padding: 0 1rem;
+
+    h2 {
+      font-family: $yanone;
+      font-size: 1.5rem;
+      font-weight: normal;
+      line-height: 28px;
+      text-transform: uppercase;
+    }
+  }
+ }
