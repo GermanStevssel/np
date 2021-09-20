@@ -103,6 +103,16 @@ p {
 
 /* MOBILE */
 @media (max-width: 576px) {
+  .mainViandas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px; }
+    .mainViandas h3 {
+      font-size: 1.875rem; } }
+
+/* MOBILE */
+@media (max-width: 576px) {
   .overlay {
     display: none;
     width: 100%;
