@@ -17,9 +17,6 @@
   scroll-behavior: smooth;
   box-sizing: border-box; }
 
-body {
-  overflow: hidden; }
-
 p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
