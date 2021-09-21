@@ -1,3 +1,13 @@
+/* GENERAL */
+.titulo {
+  font-family: $yanone;
+  color: $color-naranja;
+}
+
+.navLinks {
+  font-family: $yanone;
+}
+
 /* MOBILE */
 @media (max-width: 576px) {
   
@@ -19,21 +29,16 @@
       justify-content: center;
 
       .titulo {
-        color: $color-naranja;
         font-size: 2rem;
         text-align: center;
         margin-top: 0.5rem;
         margin-bottom: 0;
-        font-family: $yanone;
+        
       }
 
       .nombre {
         text-align: center;
       }
-    }
-
-    .navLinks {
-      font-family: $yanone;
     }
   }
 }

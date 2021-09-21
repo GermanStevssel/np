@@ -1,0 +1,38 @@
+/* MOBILE */
+@media (max-width: 576px) {
+    .titulosConsejos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: $color-naranja3;
+
+        .btnConsejos {
+            font-family: $roboto;
+            font-size: 0.875rem;
+            font-weight: 500;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 12px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            background-color: Transparent;
+            background-repeat: no-repeat;
+            border: none;
+            overflow: hidden;
+        }
+    }
+
+    .contenedorConsejos {
+
+        display: flex;
+        flex-direction: column;
+
+        .cajaConsejos {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

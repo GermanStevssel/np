@@ -29,19 +29,20 @@
 <body>
     <!-- Inicio Header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#">
-                    <div class="d-flex">
-                        <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
-                            class="d-inline-block align-text-top">
-                        <div class="d-flex flex-column">
+                <a class="navbar-brand logo__index" href="index.html">
+                    <div class="d-flex contenedorTitulo">
+                        <img src="/img/logo/Zanahoria.svg" alt="Logo de Nutrición Profesional" width="29.1"
+                            height="50.48" class="d-inline-block align-text-top">
+                        <div class="d-flex flex-column align-items-center">
                             <h1 class="titulo">NUTRICIÓN PROFESIONAL</h1>
-                            <span>Alejandra Cancio</span>
+                            <img src="/img/logo/Alejandra Cancio.svg" alt="Nombre de Alejandra Cancio" width="129.45"
+                                height="22.98">
                         </div>
                     </div>
                 </a>
@@ -66,7 +67,50 @@
         </nav>
     </header>
     <!-- Fin Header -->
-
+    <!-- Incio main-->
+    <div class="titulosConsejos">
+        <button class="btnConsejos m-0">ALIMENTACIÓN</button>
+        <button class="btnConsejos m-0">NUTRICIÓN</button>
+        <button class="btnConsejos m-0">MIS PACKS</button>
+    </div>
+    <div class="contenedorConsejos">
+        <div class="cajaConsejos">
+            <img src="img/logo/Consejos/Zanahoria.svg" alt="">
+            <div>
+                <h6>Consejo</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, id?</p>
+            </div>
+        </div>
+        <div class="cajaConsejos">
+            <img src="img/logo/Consejos/Zanahoria.svg" alt="">
+            <div>
+                <h6>Consejo</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, id?</p>
+            </div>
+        </div>
+        <div class="cajaConsejos">
+            <img src="img/logo/Consejos/Zanahoria.svg" alt="">
+            <div>
+                <h6>Consejo</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, id?</p>
+            </div>
+        </div>
+        <div class="cajaConsejos">
+            <img src="img/logo/Consejos/Zanahoria.svg" alt="">
+            <div>
+                <h6>Consejo</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, id?</p>
+            </div>
+        </div>
+        <div class="cajaConsejos">
+            <img src="img/logo/Consejos/Zanahoria.svg" alt="">
+            <div>
+                <h6>Consejo</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, id?</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fin main-->
     <!-- Boton de whatsapp -->
     <div class="btn-whatsapp" id="whatsapp-btn">
         <a href="">
@@ -83,29 +127,29 @@
     <!-- Inicio modal contacto -->
     <div class="overlay">
     </div>
-        <div class="container modalContacto" id="contenedorContacto">
-            <div class="d-flex flex-column align-items-center modalCaja">
-                <p>Contactanos</p>
-                <div class="contenedorDatos">
-                    <p>
-                        <span class="datosContacto">Telefono:</span> +54 0280 4420646
-                    </p>
-                    <p>
-                        <span class="datosContacto">Email:</span> contacto@gmail.com
-                    </p>
-                    <p>
-                        Paraguay 55, U9100 Trelew, Chubut
-                    </p>
-                </div>
-                <div class="modalRedes">
-                    <i class="icon-instagram"></i>
-                    <i class="icon-facebook"></i>
-                    <i class="icon-tiktok"></i>
-                    <i class="icon-whatsappModal"></i>
-                </div>
-                <p>Seguinos en redes y enterate de todas nuestras novedades</p>
+    <div class="container modalContacto" id="contenedorContacto">
+        <div class="d-flex flex-column align-items-center modalCaja">
+            <p>Contactanos</p>
+            <div class="contenedorDatos">
+                <p>
+                    <span class="datosContacto">Telefono:</span> +54 0280 4420646
+                </p>
+                <p>
+                    <span class="datosContacto">Email:</span> contacto@gmail.com
+                </p>
+                <p>
+                    Paraguay 55, U9100 Trelew, Chubut
+                </p>
             </div>
+            <div class="modalRedes">
+                <i class="icon-instagram"></i>
+                <i class="icon-facebook"></i>
+                <i class="icon-tiktok"></i>
+                <i class="icon-whatsappModal"></i>
+            </div>
+            <p>Seguinos en redes y enterate de todas nuestras novedades</p>
         </div>
+    </div>
     <!-- Fin modal contacto -->
 
     <!-- Inicio footer -->
@@ -126,7 +170,7 @@
 
     <!-- Script para boton de whatsapp -->
     <script defer src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
-    <script defer src="/js/main.js" type="text/javascript"></script> 
+    <script defer src="/js/main.js" type="text/javascript"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

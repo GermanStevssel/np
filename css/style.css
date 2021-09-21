@@ -33,6 +33,14 @@ p {
     right: 30px;
     bottom: 40px; }
 
+/* GENERAL */
+.titulo {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #EC6228; }
+
+.navLinks {
+  font-family: "Yanone Kaffeesatz", sans-serif; }
+
 /* MOBILE */
 @media (max-width: 576px) {
   nav {
@@ -49,16 +57,12 @@ p {
       align-items: center;
       justify-content: center; }
       nav .contenedorTitulo .titulo {
-        color: #EC6228;
         font-size: 2rem;
         text-align: center;
         margin-top: 0.5rem;
-        margin-bottom: 0;
-        font-family: "Yanone Kaffeesatz", sans-serif; }
+        margin-bottom: 0; }
       nav .contenedorTitulo .nombre {
-        text-align: center; }
-    nav .navLinks {
-      font-family: "Yanone Kaffeesatz", sans-serif; } }
+        text-align: center; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
@@ -110,6 +114,36 @@ p {
     padding: 16px; }
     .mainViandas h3 {
       font-size: 1.875rem; } }
+
+/* MOBILE */
+@media (max-width: 576px) {
+  .titulosConsejos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFC6AD; }
+    .titulosConsejos .btnConsejos {
+      font-family: "Roboto", sans-serif;
+      font-size: 0.875rem;
+      font-weight: 500;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      background-color: Transparent;
+      background-repeat: no-repeat;
+      border: none;
+      overflow: hidden; }
+  .contenedorConsejos {
+    display: flex;
+    flex-direction: column; }
+    .contenedorConsejos .cajaConsejos {
+      display: flex;
+      flex-direction: row; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
