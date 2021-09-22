@@ -9,7 +9,7 @@
         .contentViandas {
             margin-top: 1.188rem;
 
-            .tarjetaVianda {
+            .primeraFilaCards {
                 position: relative;
 
                 img {
@@ -18,15 +18,8 @@
                     object-fit: cover;
                 }
 
-                .overlayTarjeta {
-                    position: absolute;
-                    bottom: 0;
-                    left: 0;
-                    display: flex;
-                    align-items: flex-end;
-                    background-color: $color-naranja4;
-                    width: 100%;
-                    height: 48px; 
+                .overlayCards {
+                    @extend %overlayCards;
     
                     p {
                         color: $color-blanco;
@@ -37,6 +30,79 @@
                 }
             }
             
+            .segundaFilaCards {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: auto;
+                grid-column-gap: 4px;
+                margin-top: .25rem;
+                margin-bottom: .25rem;
+
+                a {
+                    position: relative;
+                
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+
+                    .overlayCards {
+                        @extend %overlayCards;
+                        height: 36px; 
+        
+                        p {
+                            color: $color-blanco;
+                            font-weight: 700;
+                            font-size: 0.875rem;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+
+            .terceraFilaCards {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto;
+                grid-column-gap: 4px;
+                margin-bottom: .25rem;
+
+                a {
+                    position: relative;
+                
+                    img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+
+                    .overlayCards {
+                        @extend %overlayCards;
+        
+                        p {
+                            color: $color-blanco;
+                            font-weight: 700;
+                            font-size: 0.875rem;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .btnViandas {
+            background-color: $color-naranja;
+            width: 100%;
+            padding: 0.75rem;
+            text-decoration: none;
+
+            p {
+                color: $color-blanco;
+                text-align: center;
+                font-weight: 700;
+                letter-spacing: 0.15px;
+            }            
         }
     }
 }
