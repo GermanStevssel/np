@@ -4,10 +4,6 @@
   .nosotras {
     @extend %cuadro-naranja;
     margin-top: 1rem;
-
-    h1 {
-      @extend %h1-cuadro-naranja
-    }
   }
 
   .nuestra-historia {

@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  @extend %h1
+}
+
 p {
   font-family: $roboto;
   font-size: 1rem;

@@ -16,14 +16,10 @@
     .quienes-somos {
         @extend %cuadro-naranja;
     
-        h1 {
-            @extend %h1-cuadro-naranja
-        }
-    
         a {
             text-decoration: none;
     
-            &.ver-mas {
+            &.verMas {
                 display: flex;
                 align-items: center;
                 color: $color-naranja;
