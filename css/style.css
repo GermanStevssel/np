@@ -200,7 +200,32 @@ p {
         color: #ffffff;
         text-align: center;
         font-weight: 700;
-        letter-spacing: 0.15px; } }
+        letter-spacing: 0.15px; }
+  .contenedorTitulo {
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+    height: 5vh;
+    min-height: 89px;
+    background-color: #D0EBDC; }
+  .textoViandas {
+    padding-top: .375rem;
+    padding-bottom: .625rem;
+    border-bottom: 1px solid rgba(33, 33, 33, 0.08); }
+  .contenedorViandas {
+    display: flex;
+    flex-direction: column; }
+    .contenedorViandas .cajaViandas {
+      display: flex;
+      flex-direction: row;
+      padding-top: .875rem;
+      padding-bottom: .875rem;
+      border-bottom: 1px solid rgba(33, 33, 33, 0.08); }
+      .contenedorViandas .cajaViandas h6 {
+        font-family: "Roboto", sans-serif;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 24px; } }
 
 /* MOBILE */
 @media (max-width: 576px) {

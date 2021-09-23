@@ -105,4 +105,40 @@
             }            
         }
     }
+
+    .contenedorTitulo {
+        display: flex;
+        align-items: flex-end;
+        text-transform: uppercase;
+        height: 5vh;
+        min-height: 89px;
+        background-color: $color-verde;
+    }
+
+    .textoViandas {
+        padding-top: .375rem;
+        padding-bottom: .625rem;
+        border-bottom: 1px solid $color-gris;
+    }
+
+    .contenedorViandas {
+
+        display: flex;
+        flex-direction: column;
+
+        .cajaViandas {
+            display: flex;
+            flex-direction: row;
+            padding-top: .875rem;
+            padding-bottom: .875rem;
+            border-bottom: 1px solid $color-gris;
+
+            h6 {
+                font-family: $roboto;
+                font-size: 1.25rem;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+    }
 }
