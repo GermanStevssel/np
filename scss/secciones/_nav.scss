@@ -2,6 +2,7 @@
 .titulo {
   font-family: $yanone;
   color: $color-naranja;
+  margin-bottom: 0;
 }
 
 .navLinks {
@@ -28,9 +29,22 @@
       height: 10vh;
       min-height: 80px;
       align-items: center;
-      justify-content: space-between;
       padding-top: .5rem;
       padding-bottom: .5rem;
+      
+      .segundoContLogo {
+        display: flex;
+        justify-content: left;
+
+        a {
+          flex: 1;
+
+          .logo {
+            justify-content: center;
+            align-items: flex-end;
+          }
+        }
+      }
     }
     
     .navbar-toggler {
@@ -47,8 +61,6 @@
         font-size: 2rem;
         text-align: center;
         margin-top: 0.5rem;
-        margin-bottom: 0;
-        
       }
 
       .nombre {

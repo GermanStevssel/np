@@ -47,7 +47,8 @@ p {
 /* GENERAL */
 .titulo {
   font-family: "Yanone Kaffeesatz", sans-serif;
-  color: #EC6228; }
+  color: #EC6228;
+  margin-bottom: 0; }
 
 .navLinks {
   font-family: "Yanone Kaffeesatz", sans-serif; }
@@ -68,9 +69,16 @@ p {
       height: 10vh;
       min-height: 80px;
       align-items: center;
-      justify-content: space-between;
       padding-top: .5rem;
       padding-bottom: .5rem; }
+      nav.segundaNavbar .segundoContLogo {
+        display: flex;
+        justify-content: left; }
+        nav.segundaNavbar .segundoContLogo a {
+          flex: 1; }
+          nav.segundaNavbar .segundoContLogo a .logo {
+            justify-content: center;
+            align-items: flex-end; }
     nav .navbar-toggler {
       border: none; }
     nav .contenedorTitulo {
@@ -81,8 +89,7 @@ p {
       nav .contenedorTitulo .titulo {
         font-size: 2rem;
         text-align: center;
-        margin-top: 0.5rem;
-        margin-bottom: 0; }
+        margin-top: 0.5rem; }
       nav .contenedorTitulo .nombre {
         text-align: center; } }
 
