@@ -81,6 +81,9 @@ p {
             align-items: flex-end; }
     nav .navbar-toggler {
       border: none; }
+      nav .navbar-toggler .navbar-toggler-icon {
+        width: 24px;
+        height: 24px; }
     nav .contenedorTitulo {
       display: flex;
       flex-direction: column;
@@ -225,7 +228,9 @@ p {
         font-family: "Roboto", sans-serif;
         font-size: 1.25rem;
         font-weight: 500;
-        line-height: 24px; } }
+        line-height: 24px; }
+      .contenedorViandas .cajaViandas:last-child {
+        margin-bottom: 15vh; } }
 
 /* MOBILE */
 @media (max-width: 576px) {

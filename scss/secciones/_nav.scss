@@ -49,6 +49,11 @@
     
     .navbar-toggler {
       border: none;
+
+      .navbar-toggler-icon {
+        width: 24px;
+        height: 24px;
+      }
     }
 
     .contenedorTitulo {
