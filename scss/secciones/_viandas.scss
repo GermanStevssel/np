@@ -108,11 +108,22 @@
 
     .contenedorTitulo {
         display: flex;
+        justify-content: space-between;
         align-items: flex-end;
         text-transform: uppercase;
         height: 5vh;
         min-height: 89px;
+        padding-bottom: 1rem;
         background-color: $color-verde;
+        
+        .iconoTitulo {
+            display: flex;
+            align-items: flex-start;
+
+            h1 {
+                margin-bottom: 0;
+            }
+        }   
     }
 
     .textoViandas {
@@ -136,7 +147,7 @@
             h6 {
                 font-family: $roboto;
                 font-size: 1.25rem;
-                font-weight: 500;
+                font-weight: 600;
                 line-height: 24px;
             }
 

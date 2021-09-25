@@ -27,31 +27,51 @@
 
 .icon-flecha:before {
   content: "\e907";
-  font-size: 1rem;
-  margin-bottom: .625rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 1rem;
 }
 .icon-diabeticos:before {
   content: "\e908";
+  font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
 }
 .icon-saludable:before {
   content: "\e909";
+  font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
 }
 .icon-descenso:before {
   content: "\e90a";
   font-size: 2.125rem;
-  margin-bottom: .625rem;
+  font-weight: 600;
+  padding: 1rem;
 }
 .icon-singluten:before {
   content: "\e90b";
+  font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
 }
 .icon-sinsal:before {
   content: "\e90c";
+  font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
 }
 .icon-todas:before {
   content: "\e90d";
+  font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
 }
 .icon-vegetarianas:before {
   content: "\e90e";
+  font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
 }
 .icon-whatsappModal:before {
   content: "\e906";
