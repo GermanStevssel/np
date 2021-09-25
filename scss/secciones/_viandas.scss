@@ -120,10 +120,19 @@
             display: flex;
             align-items: flex-start;
 
+            a {
+                color: $color-negro1;
+                text-decoration: none;
+            }
+
             h1 {
                 margin-bottom: 0;
             }
         }   
+    }
+
+    .bgNaranja {
+        background-color: $color-naranja3;
     }
 
     .textoViandas {
@@ -136,6 +145,7 @@
 
         display: flex;
         flex-direction: column;
+        margin-top: 1.375rem;
 
         .cajaViandas {
             display: flex;
@@ -149,6 +159,15 @@
                 font-size: 1.25rem;
                 font-weight: 600;
                 line-height: 24px;
+            }
+
+            .viandasTitulo {
+                display: flex;
+                align-items: baseline;
+
+                h6 {
+                    padding-bottom: 0.125rem;
+                }
             }
 
             &:last-child {

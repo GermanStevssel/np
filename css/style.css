@@ -216,15 +216,21 @@ p {
     .contenedorTitulo .iconoTitulo {
       display: flex;
       align-items: flex-start; }
+      .contenedorTitulo .iconoTitulo a {
+        color: #000000;
+        text-decoration: none; }
       .contenedorTitulo .iconoTitulo h1 {
         margin-bottom: 0; }
+  .bgNaranja {
+    background-color: #FFC6AD; }
   .textoViandas {
     padding-top: .375rem;
     padding-bottom: .625rem;
     border-bottom: 1px solid rgba(33, 33, 33, 0.08); }
   .contenedorViandas {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 1.375rem; }
     .contenedorViandas .cajaViandas {
       display: flex;
       flex-direction: row;
@@ -236,6 +242,11 @@ p {
         font-size: 1.25rem;
         font-weight: 600;
         line-height: 24px; }
+      .contenedorViandas .cajaViandas .viandasTitulo {
+        display: flex;
+        align-items: baseline; }
+        .contenedorViandas .cajaViandas .viandasTitulo h6 {
+          padding-bottom: 0.125rem; }
       .contenedorViandas .cajaViandas:last-child {
         margin-bottom: 15vh; } }
 

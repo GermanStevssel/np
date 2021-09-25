@@ -37,9 +37,21 @@
   font-weight: 600;
   padding: 1rem;
 }
+.icon-diabeticos2:before {
+  content: "\e908";
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 1.28rem;
+}
 .icon-saludable:before {
   content: "\e909";
   font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+.icon-saludable2:before {
+  content: "\e909";
+  font-size: 1.8rem;
   font-weight: 600;
   padding: 1rem;
 }
@@ -49,15 +61,33 @@
   font-weight: 600;
   padding: 1rem;
 }
+.icon-descenso2:before {
+  content: "\e90a";
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem;
+}
 .icon-singluten:before {
   content: "\e90b";
   font-size: 2.125rem;
   font-weight: 600;
   padding: 1rem;
 }
+.icon-singluten2:before {
+  content: "\e90b";
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem;
+}
 .icon-sinsal:before {
   content: "\e90c";
   font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+.icon-sinsal2:before {
+  content: "\e90c";
+  font-size: 1.8rem;
   font-weight: 600;
   padding: 1rem;
 }
@@ -70,6 +100,12 @@
 .icon-vegetarianas:before {
   content: "\e90e";
   font-size: 2.125rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+.icon-vegetarianas2:before {
+  content: "\e90e";
+  font-size: 1.8rem;
   font-weight: 600;
   padding: 1rem;
 }
