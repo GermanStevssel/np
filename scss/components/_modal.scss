@@ -16,9 +16,12 @@
     color: $color-blanco;
     border-radius: 10px;
     width: 90%;
-    position: absolute;
+    position: fixed;
     top: 45%;
-    left: -100vw;
+    right: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
     z-index: 9999;
     transition: all .1s linear;
 
@@ -54,5 +57,10 @@
         }
       }
     }
+  }
+
+  .visible {
+    visibility: visible;
+    opacity: 1;
   }
 }

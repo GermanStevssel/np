@@ -296,9 +296,12 @@ p {
     color: #ffffff;
     border-radius: 10px;
     width: 90%;
-    position: absolute;
+    position: fixed;
     top: 45%;
-    left: -100vw;
+    right: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
     z-index: 9999;
     transition: all .1s linear; }
     .modalContacto .modalCaja .contenedorDatos {
@@ -319,7 +322,10 @@ p {
       justify-content: space-around;
       margin-bottom: 1rem; }
       .modalContacto .modalCaja .modalRedes i {
-        margin: 0 10%; } }
+        margin: 0 10%; }
+  .visible {
+    visibility: visible;
+    opacity: 1; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
