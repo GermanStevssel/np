@@ -1,20 +1,23 @@
 // Función para mostrar modal de contacto
 function mostrarContacto() {
 	$('.overlay').fadeIn('slow')
-	let modalId = this.dataset.open;
-	console.log(modalId)
-	$(`#${modalId}`).addClass('visible');
+	$('#contenedorContacto').addClass('visible');
 }
 // Función para ocultar modal de contacto
-function ocultarModal() {
-	$('.modalContacto').animate({
-		left: '-200vw'}
-	)
+function ocultarContacto() {
 	$('.overlay').fadeOut('slow')
+  $('#contenedorContacto').removeClass('visible')
+}
+// Función ocultar modal contacto con tecla ESC
+function ocultarContactoEsc(e) {
+  if (e.key == "Escape") {
+    $(".modalContacto").removeClass('visible');
+    $('.overlay').fadeOut('slow')
+  }
 }
 
-// Función para mostrar y ocultar boton de whatsapp
 $(document).ready(function () {
+  // Función para mostrar y ocultar boton de whatsapp
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 200) {
       $("#whatsapp-btn").fadeIn(300);
@@ -26,6 +29,7 @@ $(document).ready(function () {
 	let contacto = $('[data-open]')[0]
 
 	$(contacto).click(mostrarContacto)
-	$('.overlay').click(ocultarModal)
+	$('.overlay').click(ocultarContacto)
+  $(document).keyup(ocultarContactoEsc);
 });
 

@@ -5,6 +5,7 @@
     display: none;
     width: 100%;
     height: 100%;
+    cursor: pointer;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,13 +18,13 @@
     border-radius: 10px;
     width: 90%;
     position: fixed;
-    top: 45%;
+    top: 35vh;
     right: 0;
     left: 0;
     visibility: hidden;
     opacity: 0;
     z-index: 9999;
-    transition: all .1s linear;
+    transition: all .1s ease-in;
 
     .modalCaja {
       .contenedorDatos {
@@ -62,5 +63,17 @@
   .visible {
     visibility: visible;
     opacity: 1;
+  }
+
+  [data-animation="desplazarDerecha"].modalContacto {
+    opacity: 0;
+    transform: translateX(200%);
+    transition: all 0.35s linear;
+  }
+  
+  [data-animation="desplazarDerecha"].visible.modalContacto {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.2s;
   }
 }
