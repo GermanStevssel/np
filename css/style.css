@@ -67,6 +67,16 @@ p {
     box-shadow: 0px 0.4px 0.8px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.2); }
     nav.navbar {
       height: fit-content; }
+      nav.navbar .contLogo {
+        display: flex;
+        justify-content: left;
+        width: 100%; }
+        nav.navbar .contLogo a {
+          display: none;
+          flex: 1; }
+          nav.navbar .contLogo a .logo {
+            justify-content: center;
+            align-items: flex-end; }
     nav.segundaNavbar {
       position: relative;
       display: flex;

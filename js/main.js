@@ -26,6 +26,13 @@ $(document).ready(function () {
     }
 	});
 
+  // Mostrar 2do logo
+  $('.navbar-toggler').click(() => {
+    console.log('mostrar 2do logo')
+    $('.contLogo>a').toggle("slow")
+    $('.logo__index').toggle('fast')
+  })
+
 	let contacto = $('[data-open]')[0]
 
 	$(contacto).click(mostrarContacto)

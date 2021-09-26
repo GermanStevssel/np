@@ -20,6 +20,22 @@
     &.navbar {
       height: fit-content;
 
+      .contLogo {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+
+        a {
+          display: none;
+          flex: 1;
+
+          .logo {
+            justify-content: center;
+            align-items: flex-end;
+          }
+        }
+      }
+
       h2 {
         @extend %h2;
       }
