@@ -18,20 +18,24 @@
     box-shadow: 0px 0.4px 0.8px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.2);
 
     &.navbar {
-      height: 25vh;
-      min-height: 175px;
+      height: fit-content;
+
+      h2 {
+        @extend %h2;
+      }
     }
 
     &.segundaNavbar {
       position: relative;
       display: flex;
       flex-wrap: wrap;
-      height: 10vh;
-      min-height: 80px;
+      height: fit-content;
       align-items: center;
-      padding-top: .5rem;
-      padding-bottom: .5rem;
-      
+
+      h2 {
+        @extend %h2;
+      }
+
       .segundoContLogo {
         display: flex;
         justify-content: left;
