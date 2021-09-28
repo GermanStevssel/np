@@ -1,8 +1,8 @@
 /* MOBILE */
 @media (max-width: 576px) {
   .quienes-somos, .nosotras {
-    margin: 2rem 1rem .75rem;
-    padding: 1rem;
+    margin: 2rem 1rem 1rem;
+    padding: 1rem 1rem 0.2rem;
     background-color: rgba(255, 198, 173, 0.4);
     border-radius: 10px; }
   h1 {
@@ -41,6 +41,7 @@ p {
   margin-bottom: 0; }
 
 .btn-whatsapp {
+  display: none;
   position: absolute;
   width: 56px;
   height: 56px; }
@@ -310,7 +311,7 @@ p {
     border-radius: 10px;
     width: 90%;
     position: fixed;
-    top: 45vh;
+    top: 43vh;
     right: 0;
     left: 0;
     visibility: hidden;

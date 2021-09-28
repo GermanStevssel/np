@@ -19,7 +19,7 @@ function ocultarContactoEsc(e) {
 $(document).ready(function () {
   // Función para mostrar y ocultar boton de whatsapp
 	$(window).scroll(function () {
-		if ($(this).scrollTop() > 200) {
+		if ($(this).scrollTop() > 50) {
       $("#whatsapp-btn").fadeIn(300);
 		} else {
       $("#whatsapp-btn").fadeOut(300);
