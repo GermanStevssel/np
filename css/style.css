@@ -36,8 +36,9 @@
 
 p {
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 20px;
+  letter-spacing: 0.25px;
   margin-bottom: 0; }
 
 .btn-whatsapp {
@@ -289,10 +290,24 @@ p {
       overflow: hidden; }
   .contenedorConsejos {
     display: flex;
-    flex-direction: column; }
-    .contenedorConsejos .cajaConsejos {
-      display: flex;
-      flex-direction: row; } }
+    flex-direction: column;
+    padding: 0 4% 12%; }
+    .contenedorConsejos a {
+      color: rgba(0, 0, 0, 0.6);
+      text-decoration: none; }
+      .contenedorConsejos a .cajaConsejos {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+        padding: 1rem 0; }
+        .contenedorConsejos a .cajaConsejos .subtitulo {
+          font-size: 1rem;
+          color: rgba(0, 0, 0, 0.87); }
+        .contenedorConsejos a .cajaConsejos img {
+          margin: 0 6% 0 9%; }
+        .contenedorConsejos a .cajaConsejos i {
+          position: relative;
+          top: 0.5rem; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
