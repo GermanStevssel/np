@@ -1,6 +1,12 @@
  /* MOBILE */
  @media (max-width: 576px) {
 
+  %titulo {
+    font-family: $yanone;
+    color: $color-naranja;
+    margin-bottom: 0;
+  }
+
   %cuadroNaranja {
     margin: 2rem 1rem 1rem;
     padding: 1rem 1rem 0.2rem;
