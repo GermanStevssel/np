@@ -24,15 +24,34 @@
       .contLogo {
         display: flex;
         justify-content: left;
+        align-items: center;
         width: 100%;
 
         a {
-          display: none;
+          visibility: hidden;
           flex: 1;
 
           .logo {
             justify-content: center;
+            height: 33.16px;
             align-items: flex-end;
+
+            .tituloSecundario {
+              @extend %titulo;
+              margin-left: 2.194rem;
+            }
+          }
+          
+          &[data-animation="aparecerArriba"] {
+            opacity: 0;
+            transform: translate(15%, 15%);
+            transition: all 0.35s linear;
+          }
+      
+          &[data-animation="aparecerArriba"].visible {
+            transform: none;
+            transition-delay: 0.2s;
+            opacity: 1
           }
         }
       }

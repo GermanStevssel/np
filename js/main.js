@@ -28,8 +28,7 @@ $(document).ready(function () {
 
   // Mostrar 2do logo
   $('.navbar-toggler').click(() => {
-    console.log('mostrar 2do logo')
-    $('.contLogo>a').toggle("slow")
+    $('.contLogo>a').addClass('visible')
     $('.logo__index').toggle('fast')
   })
 

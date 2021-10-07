@@ -1,6 +1,6 @@
 /* MOBILE */
 @media (max-width: 576px) {
-  .titulo {
+  .titulo, nav.navbar .contLogo a .logo .tituloSecundario {
     font-family: "Yanone Kaffeesatz", sans-serif;
     color: #EC6228;
     margin-bottom: 0; }
@@ -45,6 +45,10 @@ p {
   letter-spacing: 0.25px;
   margin-bottom: 0; }
 
+.visible {
+  visibility: visible;
+  opacity: 1; }
+
 .btn-whatsapp {
   display: none;
   position: absolute;
@@ -74,13 +78,25 @@ p {
       nav.navbar .contLogo {
         display: flex;
         justify-content: left;
+        align-items: center;
         width: 100%; }
         nav.navbar .contLogo a {
-          display: none;
+          visibility: hidden;
           flex: 1; }
           nav.navbar .contLogo a .logo {
             justify-content: center;
+            height: 33.16px;
             align-items: flex-end; }
+            nav.navbar .contLogo a .logo .tituloSecundario {
+              margin-left: 2.194rem; }
+          nav.navbar .contLogo a[data-animation="aparecerArriba"] {
+            opacity: 0;
+            transform: translate(15%, 15%);
+            transition: all 0.35s linear; }
+          nav.navbar .contLogo a[data-animation="aparecerArriba"].visible {
+            transform: none;
+            transition-delay: 0.2s;
+            opacity: 1; }
     nav.segundaNavbar {
       position: relative;
       display: flex;
@@ -365,10 +381,7 @@ p {
     .modalContacto[data-animation="desplazarDerecha"].visible {
       opacity: 1;
       transform: none;
-      transition-delay: 0.2s; }
-  .visible {
-    visibility: visible;
-    opacity: 1; } }
+      transition-delay: 0.2s; } }
 
 .slider {
   overflow-x: scroll;
