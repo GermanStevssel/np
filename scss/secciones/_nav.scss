@@ -31,7 +31,7 @@
           visibility: hidden;
           flex: 1;
 
-          .logo {
+          .logoSecundario {
             justify-content: center;
             height: 33.16px;
             align-items: flex-end;
@@ -45,7 +45,7 @@
           &[data-animation="aparecerArriba"] {
             opacity: 0;
             transform: translate(15%, 15%);
-            transition: all 0.35s linear;
+            transition: all 0.45s linear;
           }
       
           &[data-animation="aparecerArriba"].visible {
@@ -56,8 +56,39 @@
         }
       }
 
+      .navbar-brand {
+        margin: 0;
+        padding: .625rem 0;
+
+        &.logo__index {
+          position: relative;
+          padding: 0;
+          margin: auto;
+          bottom: 0;
+        }
+      }
+
       h2 {
         @extend %h2;
+      }
+
+      .logoZanahoria {
+        position: absolute;
+        margin: auto;
+        top: 2.5rem;
+        left: 0;
+        right: 0;
+
+        &[data-animation="trasladarArriba"].visible {
+          transform: translate(-5.8rem, -1.9rem) scale(0.657);
+          transition: all 0.6s ease-in;
+        }
+    
+        &[data-animation="trasladarArriba"] {
+          transform: none;
+          transition-delay: 0.2s;
+          opacity: 1
+        }
       }
     }
 
@@ -101,6 +132,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      margin-top: 2rem;
 
       .titulo {
         font-size: 2rem;

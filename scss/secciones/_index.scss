@@ -1,18 +1,6 @@
  /* MOBILE */
 @media (max-width: 576px) {
 
-    .navbar-brand {
-        margin: 0;
-        padding: .625rem 0;
-    }
-
-    .logo__index {
-        position: relative;
-        padding: 0;
-        margin: auto;
-        bottom: 0;
-    }
-
     .quienes-somos {
         @extend %cuadroNaranja;
     

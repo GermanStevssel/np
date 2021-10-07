@@ -1,6 +1,6 @@
 /* MOBILE */
 @media (max-width: 576px) {
-  .titulo, nav.navbar .contLogo a .logo .tituloSecundario {
+  .titulo, nav.navbar .contLogo a .logoSecundario .tituloSecundario {
     font-family: "Yanone Kaffeesatz", sans-serif;
     color: #EC6228;
     margin-bottom: 0; }
@@ -83,20 +83,41 @@ p {
         nav.navbar .contLogo a {
           visibility: hidden;
           flex: 1; }
-          nav.navbar .contLogo a .logo {
+          nav.navbar .contLogo a .logoSecundario {
             justify-content: center;
             height: 33.16px;
             align-items: flex-end; }
-            nav.navbar .contLogo a .logo .tituloSecundario {
+            nav.navbar .contLogo a .logoSecundario .tituloSecundario {
               margin-left: 2.194rem; }
           nav.navbar .contLogo a[data-animation="aparecerArriba"] {
             opacity: 0;
             transform: translate(15%, 15%);
-            transition: all 0.35s linear; }
+            transition: all 0.45s linear; }
           nav.navbar .contLogo a[data-animation="aparecerArriba"].visible {
             transform: none;
             transition-delay: 0.2s;
             opacity: 1; }
+      nav.navbar .navbar-brand {
+        margin: 0;
+        padding: .625rem 0; }
+        nav.navbar .navbar-brand.logo__index {
+          position: relative;
+          padding: 0;
+          margin: auto;
+          bottom: 0; }
+      nav.navbar .logoZanahoria {
+        position: absolute;
+        margin: auto;
+        top: 2.5rem;
+        left: 0;
+        right: 0; }
+        nav.navbar .logoZanahoria[data-animation="trasladarArriba"].visible {
+          transform: translate(-5.8rem, -1.9rem) scale(0.657);
+          transition: all 0.6s ease-in; }
+        nav.navbar .logoZanahoria[data-animation="trasladarArriba"] {
+          transform: none;
+          transition-delay: 0.2s;
+          opacity: 1; }
     nav.segundaNavbar {
       position: relative;
       display: flex;
@@ -120,7 +141,8 @@ p {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      margin-top: 2rem; }
       nav .contenedorTitulo .titulo {
         font-size: 2rem;
         text-align: center;
@@ -130,14 +152,6 @@ p {
 
 /* MOBILE */
 @media (max-width: 576px) {
-  .navbar-brand {
-    margin: 0;
-    padding: .625rem 0; }
-  .logo__index {
-    position: relative;
-    padding: 0;
-    margin: auto;
-    bottom: 0; }
   .quienes-somos a {
     text-decoration: none; }
     .quienes-somos a.verMas {

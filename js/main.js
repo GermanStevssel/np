@@ -29,6 +29,7 @@ $(document).ready(function () {
   // Mostrar 2do logo
   $('.navbar-toggler').click(() => {
     $('.contLogo>a').addClass('visible')
+    $('.logoZanahoria').addClass('visible')
     $('.logo__index').toggle('fast')
   })
 
