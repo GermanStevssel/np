@@ -89,7 +89,8 @@ p {
           nav.navbar .contLogo a .logoSecundario {
             justify-content: center;
             height: 33.16px;
-            align-items: flex-end; }
+            align-items: flex-end;
+            z-index: 10; }
             nav.navbar .contLogo a .logoSecundario .tituloSecundario {
               margin-left: 2.194rem; }
           nav.navbar .contLogo a[data-animation="aparecerArriba"] {
@@ -120,7 +121,8 @@ p {
         margin: auto;
         top: 2.5rem;
         left: 0;
-        right: 0; }
+        right: 0;
+        z-index: 10; }
         nav.navbar .logoZanahoria[data-animation="trasladarArriba"].visible {
           -webkit-transform: translate(-5.8rem, -1.9rem) scale(0.657);
           transform: translate(-5.8rem, -1.9rem) scale(0.657);
