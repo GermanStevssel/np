@@ -351,15 +351,18 @@ p {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 12px;
+      padding: 10px;
       line-height: 24px;
       text-align: center;
       letter-spacing: 0.01em;
       text-transform: uppercase;
       background-color: Transparent;
       background-repeat: no-repeat;
-      border: none;
-      overflow: hidden; }
+      border: solid 2px #FFC6AD;
+      overflow: hidden;
+      transition: all .6s ease; }
+      .titulosConsejos .btnConsejos:focus {
+        border-bottom: solid 2px rgba(0, 0, 0, 0.6); }
   .contenedorConsejos {
     display: flex;
     flex-direction: column;
