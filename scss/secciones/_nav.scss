@@ -44,12 +44,19 @@
           
           &[data-animation="aparecerArriba"] {
             opacity: 0;
+            -webkit-transform: translate(15%, 15%);
             transform: translate(15%, 15%);
+            -webkit-transition: all 0.45s linear;
+            -moz-transition: all 0.45s linear;
+            -o-transition: all 0.45s linear;
             transition: all 0.45s linear;
           }
       
           &[data-animation="aparecerArriba"].visible {
             transform: none;
+            -webkit-transition-delay: 0.2s;
+            -moz-transition-delay: 0.2s;
+            -o-transition-delay: 0.2s;
             transition-delay: 0.2s;
             opacity: 1
           }
@@ -80,14 +87,43 @@
         right: 0;
 
         &[data-animation="trasladarArriba"].visible {
+          -webkit-transform: translate(-5.8rem, -1.9rem) scale(0.657);
           transform: translate(-5.8rem, -1.9rem) scale(0.657);
+          -moz-transition: all 0.6s ease-in;
+          -webkit-transition: all 0.6s ease-in;
+          -o-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
         }
     
         &[data-animation="trasladarArriba"] {
+          -webkit-transform: none;
           transform: none;
+          -moz-transition-delay: 0.2s;
+          -webkit-transition-delay: 0.2s;
+          -o-transition-delay: 0.2s;
           transition-delay: 0.2s;
+          -moz-transition: all 0.6s ease-in;
+          -webkit-transition: all 0.6s ease-in;
+          -o-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
           opacity: 1
+        }
+      }
+
+      .navbar-collapse {
+        position: relative;
+        top: -15rem;
+        -webkit-transition: all 0.15s linear;
+        -moz-transition: all 0.15s linear;
+        -o-transition: all 0.15s linear;
+        transition: all 0.15s linear;
+
+        &.show {
+          top: 0;
+          -webkit-transition: all 0.3s linear;
+          -moz-transition: all 0.3s linear;
+          -o-transition: all 0.3s linear;
+          transition: all 0.3s linear;
         }
       }
     }

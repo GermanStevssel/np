@@ -28,9 +28,15 @@ $(document).ready(function () {
 
   // Mostrar 2do logo
   $('.navbar-toggler').click(() => {
-    $('.contLogo>a').addClass('visible')
-    $('.logoZanahoria').addClass('visible')
-    $('.logo__index').toggle('fast')
+    if($('.contLogo>a').hasClass('visible')) {
+      $('.contLogo>a').removeClass('visible')
+      $('.logoZanahoria').removeClass('visible')
+      $('.logo__index').toggle(600)
+    } else {
+      $('.contLogo>a').addClass('visible')
+      $('.logoZanahoria').addClass('visible')
+      $('.logo__index').toggle(600)
+    } 
   })
 
 	let contacto = $('[data-open]')[0]
