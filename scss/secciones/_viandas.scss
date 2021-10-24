@@ -1,178 +1,177 @@
 /* MOBILE */
 @media (max-width: 576px) {
-    .mainViandas {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 19px;
+	.mainViandas {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 19px;
 
-        .contentViandas {
-            margin-top: 1.188rem;
+		.contentViandas {
+			margin-top: 1.188rem;
 
-            .primeraFilaCards {
-                position: relative;
+			.primeraFilaCards {
+				position: relative;
 
-                img {
-                    width: 100%;
-                    height: auto;
-                    object-fit: cover;
-                }
+				img {
+					width: 100%;
+					height: auto;
+					object-fit: cover;
+				}
 
-                .overlayCards {
-                    @extend %overlayCards;
-    
-                    p {
-                        color: $color-blanco;
-                        font-weight: 700;
-                        font-size: 0.875rem;
-                        line-height: 20px;
-                    }
-                }
-            }
-            
-            .segundaFilaCards {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: auto;
-                grid-column-gap: 4px;
-                margin-top: .25rem;
-                margin-bottom: .25rem;
+				.overlayCards {
+					@extend %overlayCards;
 
-                a {
-                    position: relative;
-                
-                    img {
-                        width: 100%;
-                        height: auto;
-                        object-fit: cover;
-                    }
+					p {
+						color: $color-blanco;
+						font-weight: 700;
+						font-size: 0.875rem;
+						line-height: 20px;
+					}
+				}
+			}
 
-                    .overlayCards {
-                        @extend %overlayCards;
-                        height: 36px; 
-        
-                        p {
-                            color: $color-blanco;
-                            font-weight: 700;
-                            font-size: 0.875rem;
-                            line-height: 20px;
-                        }
-                    }
-                }
-            }
+			.segundaFilaCards {
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-template-rows: auto;
+				grid-column-gap: 4px;
+				margin-top: 0.25rem;
+				margin-bottom: 0.25rem;
 
-            .terceraFilaCards {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: auto;
-                grid-column-gap: 4px;
-                margin-bottom: .25rem;
+				a {
+					position: relative;
 
-                a {
-                    position: relative;
-                
-                    img {
-                        width: 100%;
-                        height: auto;
-                        object-fit: cover;
-                    }
+					img {
+						width: 100%;
+						height: auto;
+						object-fit: cover;
+					}
 
-                    .overlayCards {
-                        @extend %overlayCards;
-        
-                        p {
-                            color: $color-blanco;
-                            font-weight: 700;
-                            font-size: 0.875rem;
-                            line-height: 20px;
-                        }
-                    }
-                }
-            }
-        }
+					.overlayCards {
+						@extend %overlayCards;
+						height: 36px;
 
-        .btnViandas {
-            background-color: $color-naranja;
-            width: 100%;
-            padding: 0.75rem;
-            text-decoration: none;
+						p {
+							color: $color-blanco;
+							font-weight: 700;
+							font-size: 0.875rem;
+							line-height: 20px;
+						}
+					}
+				}
+			}
 
-            p {
-                color: $color-blanco;
-                text-align: center;
-                font-weight: 700;
-                letter-spacing: 0.15px;
-            }            
-        }
-    }
+			.terceraFilaCards {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				grid-template-rows: auto;
+				grid-column-gap: 4px;
+				margin-bottom: 0.25rem;
 
-    .contenedorTituloViandas {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        text-transform: uppercase;
-        height: 5vh;
-        min-height: 89px;
-        padding-bottom: 1rem;
-        background-color: $color-verde;
-        
-        .iconoTitulo {
-            display: flex;
-            align-items: flex-start;
+				a {
+					position: relative;
 
-            a {
-                color: $color-negro1;
-                text-decoration: none;
-            }
+					img {
+						width: 100%;
+						height: auto;
+						object-fit: cover;
+					}
 
-            h1 {
-                margin-bottom: 0;
-            }
-        }   
-    }
+					.overlayCards {
+						@extend %overlayCards;
 
-    .bgNaranja {
-        background-color: $color-naranja3;
-    }
+						p {
+							color: $color-blanco;
+							font-weight: 700;
+							font-size: 0.875rem;
+							line-height: 20px;
+						}
+					}
+				}
+			}
+		}
 
-    .textoViandas {
-        padding-top: .375rem;
-        padding-bottom: .625rem;
-        border-bottom: 1px solid $color-gris;
-    }
+		.btnViandas {
+			background-color: $color-naranja;
+			width: 100%;
+			padding: 0.75rem;
+			text-decoration: none;
 
-    .contenedorViandas {
+			p {
+				color: $color-blanco;
+				text-align: center;
+				font-weight: 700;
+				letter-spacing: 0.15px;
+			}
+		}
+	}
 
-        display: flex;
-        flex-direction: column;
-        margin-top: 1.375rem;
+	.contenedor-titulo-viandas {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		text-transform: uppercase;
+		height: 5vh;
+		min-height: 89px;
+		padding-bottom: 1rem;
+		background-color: $color-verde;
 
-        .cajaViandas {
-            display: flex;
-            flex-direction: row;
-            padding-top: .875rem;
-            padding-bottom: .875rem;
-            border-bottom: 1px solid $color-gris;
+		.icono-titulo {
+			display: flex;
+			align-items: flex-start;
 
-            h6 {
-                font-family: $roboto;
-                font-size: 1.25rem;
-                font-weight: 600;
-                line-height: 24px;
-            }
+			a {
+				color: $color-negro1;
+				text-decoration: none;
+			}
 
-            .viandasTitulo {
-                display: flex;
-                align-items: baseline;
+			h1 {
+				margin-bottom: 0;
+			}
+		}
+	}
 
-                h6 {
-                    padding-bottom: 0.125rem;
-                }
-            }
+	.bg-naranja {
+		background-color: $color-naranja3;
+	}
 
-            &:last-child {
-                margin-bottom: 5.5rem;
-            }
-        }
-    }
+	.textoViandas {
+		padding-top: 0.375rem;
+		padding-bottom: 0.625rem;
+		border-bottom: 1px solid $color-gris;
+	}
+
+	.contenedorViandas {
+		display: flex;
+		flex-direction: column;
+		margin-top: 1.375rem;
+
+		.cajaViandas {
+			display: flex;
+			flex-direction: row;
+			padding-top: 0.875rem;
+			padding-bottom: 0.875rem;
+			border-bottom: 1px solid $color-gris;
+
+			h6 {
+				font-family: $roboto;
+				font-size: 1.25rem;
+				font-weight: 600;
+				line-height: 24px;
+			}
+
+			.viandasTitulo {
+				display: flex;
+				align-items: baseline;
+
+				h6 {
+					padding-bottom: 0.125rem;
+				}
+			}
+
+			&:last-child {
+				margin-bottom: 5.5rem;
+			}
+		}
+	}
 }
