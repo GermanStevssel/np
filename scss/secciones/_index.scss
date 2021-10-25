@@ -1,7 +1,13 @@
 /* DESKTOP */
+.quienes-somos-mobile {
+	display: none;
+}
 
 /* MOBILE */
 @media (max-width: 576px) {
+	.quienes-somos-mobile {
+		display: block;
+	}
 	.quienes-somos {
 		@extend %cuadroNaranja;
 

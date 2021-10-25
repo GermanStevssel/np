@@ -15,10 +15,6 @@ nav {
 	box-shadow: 0px 0.4px 0.8px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.2);
 	border-collapse: separate;
 
-	&.navbar {
-		padding: 1.5rem 2rem 0.5rem;
-	}
-
 	.cont-logo {
 		display: none;
 	}
@@ -53,6 +49,10 @@ nav {
 		justify-content: flex-end;
 
 		.navbar-nav {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
 			.nav-item {
 				.nav-link {
 					padding-right: 1.5rem;
@@ -76,7 +76,7 @@ nav {
 
 		&.navbar {
 			height: fit-content;
-			padding: 0 0 0.5rem;
+			padding-top: 0;
 
 			.cont-logo {
 				display: flex;
