@@ -28,12 +28,12 @@ $(document).ready(function () {
 
 	// Mostrar 2do logo
 	$(".navbar-toggler").click(() => {
-		if ($(".contLogo>a").hasClass("visible")) {
-			$(".contLogo>a").removeClass("visible");
+		if ($(".cont-logo>a").hasClass("visible")) {
+			$(".cont-logo>a").removeClass("visible");
 			$(".logo-zanahoria").removeClass("visible");
 			$(".logo__index").toggle(600);
 		} else {
-			$(".contLogo>a").addClass("visible");
+			$(".cont-logo>a").addClass("visible");
 			$(".logo-zanahoria").addClass("visible");
 			$(".logo__index").toggle(600);
 		}

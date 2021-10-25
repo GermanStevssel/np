@@ -7,7 +7,7 @@
 
 /* MOBILE */
 @media (max-width: 576px) {
-  nav.navbar .contLogo a .logo-secundario .titulo-secundario, nav.segunda-navbar .segundo-cont-logo .nav-superior a .logo .titulo, nav .contenedor-titulo .titulo {
+  nav.navbar .cont-logo a .logo-secundario .titulo-secundario, nav.segunda-navbar .segundo-cont-logo .nav-superior a .logo .titulo, nav .contenedor-titulo .titulo {
     font-family: "Yanone Kaffeesatz", sans-serif;
     color: #EC6228;
     margin-bottom: 0; }
@@ -82,12 +82,20 @@ nav {
   -webkit-box-shadow: 0px 0.4px 0.8px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0.4px 0.8px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.2);
   border-collapse: separate; }
+  nav.navbar {
+    padding: 1.5rem 2rem 0.5rem; }
+  nav .cont-logo {
+    display: none; }
+  nav .logo-zanahoria {
+    width: 42px;
+    height: auto;
+    margin: auto; }
   nav .contenedor-titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 0.5rem; }
+    margin-left: 1rem; }
     nav .contenedor-titulo .titulo {
       font-size: 2.3rem;
       text-align: center;
@@ -97,8 +105,13 @@ nav {
   nav .navbar-collapse {
     display: flex;
     justify-content: flex-end; }
-    nav .navbar-collapse ul li a h2 {
-      font-size: 1.5rem; }
+    nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem; }
+      nav .navbar-collapse .navbar-nav .nav-item .nav-link h2 {
+        color: #000000;
+        font-size: 1.5rem;
+        line-height: 28px; }
 
 /* MOBILE */
 @media (max-width: 576px) {
@@ -106,8 +119,8 @@ nav {
     background-color: #F9F9F9; }
     nav.navbar {
       height: fit-content;
-      padding-top: 0; }
-      nav.navbar .contLogo {
+      padding: 0 0 0.5rem; }
+      nav.navbar .cont-logo {
         display: flex;
         justify-content: left;
         align-items: center;
@@ -117,19 +130,19 @@ nav {
         padding-top: 0.5rem;
         width: 100%;
         z-index: 10; }
-        nav.navbar .contLogo a {
+        nav.navbar .cont-logo a {
           visibility: hidden;
           flex: 1; }
-          nav.navbar .contLogo a .logo-secundario {
+          nav.navbar .cont-logo a .logo-secundario {
             justify-content: center;
             height: 33.16px;
             align-items: flex-end;
             z-index: 10; }
-            nav.navbar .contLogo a .logo-secundario .titulo-secundario {
+            nav.navbar .cont-logo a .logo-secundario .titulo-secundario {
               display: block;
               font-size: 1.875rem;
               margin-left: 2.194rem; }
-          nav.navbar .contLogo a[data-animation="aparecerArriba"] {
+          nav.navbar .cont-logo a[data-animation="aparecerArriba"] {
             opacity: 0;
             -webkit-transform: translate(3%, 15%);
             transform: translate(3%, 15%);
@@ -137,7 +150,7 @@ nav {
             -moz-transition: all 0.45s linear;
             -o-transition: all 0.45s linear;
             transition: all 0.45s linear; }
-          nav.navbar .contLogo a[data-animation="aparecerArriba"].visible {
+          nav.navbar .cont-logo a[data-animation="aparecerArriba"].visible {
             transform: none;
             -webkit-transition-delay: 0.2s;
             -moz-transition-delay: 0.2s;
@@ -155,6 +168,8 @@ nav {
       nav.navbar .logo-zanahoria {
         position: absolute;
         margin: auto;
+        width: 29.1px;
+        height: 50.48px;
         top: 2.5rem;
         left: 0;
         right: 0;
@@ -181,7 +196,7 @@ nav {
       nav.navbar .navbar-collapse {
         justify-content: center;
         position: relative;
-        top: -17rem; }
+        top: -20rem; }
         nav.navbar .navbar-collapse.collapsing {
           -webkit-transition: all 0.3s linear;
           -moz-transition: all 0.3s linear;
@@ -195,6 +210,8 @@ nav {
           transition: all 0.3s linear; }
         nav.navbar .navbar-collapse .navbar-nav {
           align-items: center; }
+        nav.navbar .navbar-collapse .navbar-nav .nav-item .nav-link h2 {
+          color: rgba(0, 0, 0, 0.6); }
     nav.segunda-navbar {
       position: relative;
       display: flex;
