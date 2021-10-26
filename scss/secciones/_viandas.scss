@@ -19,7 +19,7 @@
 				}
 
 				.overlayCards {
-					@extend %overlayCards;
+					@extend %overlay-cards;
 
 					p {
 						color: $color-blanco;
@@ -48,7 +48,7 @@
 					}
 
 					.overlayCards {
-						@extend %overlayCards;
+						@extend %overlay-cards;
 						height: 36px;
 
 						p {
@@ -78,7 +78,7 @@
 					}
 
 					.overlayCards {
-						@extend %overlayCards;
+						@extend %overlay-cards;
 
 						p {
 							color: $color-blanco;

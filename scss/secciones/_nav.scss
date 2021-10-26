@@ -14,6 +14,7 @@ nav {
 		0px 3px 6px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 0.4px 0.8px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.2);
 	border-collapse: separate;
+	z-index: 100;
 
 	.cont-logo {
 		display: none;
@@ -33,7 +34,7 @@ nav {
 		margin-left: 1rem;
 
 		.titulo {
-			@extend %tituloDesktop;
+			@extend %titulo-desktop;
 			font-size: 2.3rem;
 			text-align: center;
 			margin-top: 0.5rem;

@@ -1,21 +1,20 @@
- /* MOBILE */
- @media (max-width: 576px) {
+/* MOBILE */
+@media (max-width: 576px) {
+	.nosotras {
+		@include cuadro-naranja;
+		margin-top: 1rem;
+	}
 
-  .nosotras {
-    @extend %cuadroNaranja;
-    margin-top: 1rem;
-  }
+	.nuestra-historia {
+		margin: 0.5rem 1rem 1rem;
+		padding: 0 1rem;
 
-  .nuestra-historia {
-    margin: .5rem 1rem 1rem;
-    padding: 0 1rem;
-
-    h2 {
-      font-family: $yanone;
-      font-size: 1.5rem;
-      font-weight: normal;
-      line-height: 28px;
-      text-transform: uppercase;
-    }
-  }
- }
+		h2 {
+			font-family: $yanone;
+			font-size: 1.5rem;
+			font-weight: normal;
+			line-height: 28px;
+			text-transform: uppercase;
+		}
+	}
+}

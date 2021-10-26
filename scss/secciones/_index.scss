@@ -1,15 +1,75 @@
 /* DESKTOP */
-.quienes-somos-mobile {
+.mobile {
 	display: none;
+}
+
+.quienes-somos {
+	margin-top: 3.5rem;
+
+	h1 {
+		@include h1();
+		font-size: calc(2rem + calc(1.5rem + 1vw));
+		line-height: 70px;
+		margin-bottom: 0;
+	}
+
+	p {
+		@extend %texto-principal-desktop;
+		margin: 1.875rem 0;
+	}
+
+	.features {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 1.875rem;
+		margin-bottom: 7rem;
+
+		p.text-features {
+			font-family: $yanone;
+			font-size: calc(0.65rem + calc(0.3rem + 1vw));
+			font-weight: 400;
+			text-align: center;
+			text-transform: uppercase;
+			line-height: 28px;
+			margin-top: 1.5rem;
+		}
+	}
+}
+
+.cont-img-index {
+	position: relative;
+	width: 100%;
+
+	img {
+		position: absolute;
+		top: -5rem;
+		right: 1rem;
+		width: 85%;
+		height: auto;
+	}
 }
 
 /* MOBILE */
 @media (max-width: 576px) {
-	.quienes-somos-mobile {
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
 		display: block;
 	}
 	.quienes-somos {
-		@extend %cuadroNaranja;
+		@include cuadro-naranja;
+
+		h1 {
+			@include h1;
+		}
+
+		p {
+			@extend %texto-principal-mobile;
+			margin: 0;
+		}
 
 		a {
 			text-decoration: none;

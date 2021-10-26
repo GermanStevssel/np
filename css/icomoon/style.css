@@ -1,151 +1,152 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?d19hed');
-  src:  url('fonts/icomoon.eot?d19hed#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?d19hed') format('truetype'),
-    url('fonts/icomoon.woff?d19hed') format('woff'),
-    url('fonts/icomoon.svg?d19hed#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+	font-family: "icomoon";
+	src: url("fonts/icomoon.eot?xqyev2");
+	src: url("fonts/icomoon.eot?xqyev2#iefix") format("embedded-opentype"),
+		url("fonts/icomoon.ttf?xqyev2") format("truetype"),
+		url("fonts/icomoon.woff?xqyev2") format("woff"),
+		url("fonts/icomoon.svg?xqyev2#icomoon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak-as: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "icomoon" !important;
+	speak-as: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-flecha-expand:before {
-  content: "\e90f";
-  color: rgba(0, 0, 0, 0.6);
-  font-size: .875rem;
+	content: "\e90f";
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 0.875rem;
 }
 .icon-flecha:before {
-  content: "\e907";
-  font-size: 1.1rem;
-  font-weight: 400;
-  padding: 1rem;
+	content: "\e907";
+	font-size: 1.1rem;
+	font-weight: 400;
+	padding: 1rem;
 }
 .icon-diabeticos:before {
-  content: "\e908";
-  font-size: 2.125rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e908";
+	font-size: 2.125rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-diabeticos2:before {
-  content: "\e908";
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding: 1rem 1.28rem;
+	content: "\e908";
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 1rem 1.28rem;
 }
 .icon-saludable:before {
-  content: "\e909";
-  font-size: 2.125rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e909";
+	font-size: 2.125rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-saludable2:before {
-  content: "\e909";
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e909";
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-descenso:before {
-  content: "\e90a";
-  font-size: 2.125rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90a";
+	font-size: 2.125rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-descenso2:before {
-  content: "\e90a";
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90a";
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-singluten:before {
-  content: "\e90b";
-  font-size: 2.125rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90b";
+	font-size: 2.125rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-singluten2:before {
-  content: "\e90b";
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90b";
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-sinsal:before {
-  content: "\e90c";
-  font-size: 2.125rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90c";
+	font-size: 2.125rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-sinsal2:before {
-  content: "\e90c";
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90c";
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-todas:before {
-  content: "\e90d";
-  font-size: 2.125rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90d";
+	font-size: 2.125rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-vegetarianas:before {
-  content: "\e90e";
-  font-size: 2.125rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90e";
+	font-size: 2.125rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-vegetarianas2:before {
-  content: "\e90e";
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding: 1rem;
+	content: "\e90e";
+	font-size: 1.8rem;
+	font-weight: 600;
+	padding: 1rem;
 }
 .icon-whatsappModal:before {
-  content: "\e906";
-  font-size: 2.5rem;
+	content: "\e906";
+	font-size: 2.5rem;
 }
 .icon-mas:before {
-  content: "\e905";
-  color: #ec6228;
-  font-size: 1.2rem;
-  padding-right: 0.3rem;
+	content: "\e905";
+	color: #ec6228;
+	font-size: 1.2rem;
+	padding-right: 0.3rem;
 }
 .icon-facebook:before {
-  content: "\e900";
-  font-size: 2.5rem;
+	content: "\e900";
+	font-size: 2.5rem;
 }
 .icon-instagram:before {
-  content: "\e901";
-  font-size: 2.5rem;
+	content: "\e901";
+	font-size: 2.5rem;
 }
 .icon-tiktok:before {
-  content: "\e902";
-  font-size: 2.5rem;
+	content: "\e902";
+	font-size: 2.5rem;
 }
 .icon-whatsapp .path1:before {
-  content: "\e903";
-  font-size: 2.9rem;
-  font-style: normal;
-  color: rgb(76, 175, 80);
+	content: "\e903";
+	font-size: 2.9rem;
+	font-style: normal;
+	color: rgb(76, 175, 80);
 }
 .icon-whatsapp .path2:before {
-  content: "\e904";
-  font-size: 2.9rem;
-  font-style: normal;
-  margin-left: -1.17em;
-  color: rgb(250, 250, 250);
+	content: "\e904";
+	font-size: 2.9rem;
+	font-style: normal;
+	margin-left: -1.17em;
+	color: rgb(250, 250, 250);
 }

@@ -1,0 +1,15 @@
+@mixin h1() {
+	font-family: $yanone;
+	font-size: 1.875rem;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	margin-bottom: 0.625rem;
+}
+
+@mixin cuadro-naranja() {
+	margin: 2rem 1rem 1rem;
+	padding: 1rem 1rem 0.2rem;
+	background-color: $color-naranja2;
+	border-radius: 10px;
+}

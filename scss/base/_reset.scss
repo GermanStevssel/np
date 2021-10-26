@@ -1,27 +1,27 @@
 * {
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	box-sizing: border-box;
 }
 
 h1 {
-  @extend %h1
+	@include h1;
 }
 
 p {
-  font-family: $roboto;
-  font-size: 0.875rem;
-  line-height: 20px;
-  letter-spacing: 0.25px;
-  margin-bottom: 0;
+	font-family: $roboto;
+	font-size: 0.875rem;
+	line-height: 20px;
+	letter-spacing: 0.25px;
+	margin-bottom: 0;
 }
 
 .visible {
-  visibility: visible;
-  opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 
 .none {
-  display: none;
+	display: none;
 }
