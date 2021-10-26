@@ -6,13 +6,12 @@
 }
 
 h1 {
-	@include h1;
+	@include titulos();
 }
 
 p {
 	font-family: $roboto;
 	font-size: 0.875rem;
-	line-height: 20px;
 	letter-spacing: 0.25px;
 	margin-bottom: 0;
 }

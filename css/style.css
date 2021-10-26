@@ -1,6 +1,6 @@
 nav .contenedor-titulo .titulo {
   font-family: "Yanone Kaffeesatz", sans-serif;
-  color: #EC6228;
+  color: #ec6228;
   margin-bottom: 0; }
 
 .quienes-somos p {
@@ -13,7 +13,7 @@ nav .contenedor-titulo .titulo {
 @media (max-width: 576px) {
   nav.navbar .cont-logo a .logo-secundario .titulo-secundario, nav.segunda-navbar .segundo-cont-logo .nav-superior a .logo .titulo, nav .contenedor-titulo .titulo {
     font-family: "Yanone Kaffeesatz", sans-serif;
-    color: #EC6228;
+    color: #ec6228;
     margin-bottom: 0; }
   nav.navbar h2 {
     font-size: 24px;
@@ -47,14 +47,13 @@ h1 {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1.875rem;
   font-weight: 400;
-  line-height: 28px;
   text-transform: uppercase;
-  margin-bottom: 0.625rem; }
+  margin-bottom: 0.625rem;
+  line-height: 28px; }
 
 p {
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
-  line-height: 20px;
   letter-spacing: 0.25px;
   margin-bottom: 0; }
 
@@ -125,7 +124,7 @@ nav {
 /* MOBILE */
 @media (max-width: 576px) {
   nav {
-    background-color: #F9F9F9; }
+    background-color: #f9f9f9; }
     nav.navbar {
       height: fit-content;
       padding-top: 0; }
@@ -133,7 +132,7 @@ nav {
         display: flex;
         justify-content: left;
         align-items: center;
-        background-color: #F9F9F9;
+        background-color: #f9f9f9;
         width: 100%;
         height: 100%;
         padding-top: 0.5rem;
@@ -228,7 +227,7 @@ nav {
       height: fit-content;
       align-items: center; }
       nav.segunda-navbar .segundo-cont-logo .nav-superior {
-        background-color: #F9F9F9;
+        background-color: #f9f9f9;
         width: 100%;
         height: 100%;
         display: flex;
@@ -271,14 +270,11 @@ nav {
   margin-top: 3.5rem; }
   .quienes-somos h1 {
     font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1.875rem;
-    font-weight: 400;
-    line-height: 28px;
-    text-transform: uppercase;
-    margin-bottom: 0.625rem;
     font-size: calc(2rem + calc(1.5rem + 1vw));
-    line-height: 70px;
-    margin-bottom: 0; }
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 70px; }
   .quienes-somos p {
     margin: 1.875rem 0; }
   .quienes-somos .features {
@@ -306,6 +302,95 @@ nav {
     width: 85%;
     height: auto; }
 
+.nuestras-viandas h3 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: calc(2rem + calc(1.5rem + 1vw));
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  line-height: 70px; }
+
+.viandas {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 1.75rem; }
+  .viandas .viandas__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 18px; }
+    .viandas .viandas__content .viandas__titulo {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      font-size: calc(2rem + calc(3rem + 10vw));
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      line-height: 95px;
+      color: #ffffff;
+      align-self: flex-end; }
+    .viandas .viandas__content .viandas__card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-decoration: none; }
+      .viandas .viandas__content .viandas__card .viandas__cont-nombre {
+        background-color: #f1895d;
+        width: 100%; }
+        .viandas .viandas__content .viandas__card .viandas__cont-nombre .viandas__nombre {
+          text-align: center;
+          color: #333333;
+          font-family: "Yanone Kaffeesatz", sans-serif;
+          font-size: 2.25rem;
+          width: 100%;
+          font-weight: 400;
+          text-transform: uppercase;
+          margin-bottom: 0; }
+
+.pedir {
+  margin: 2rem 1rem 1rem;
+  padding: 1rem 1rem 0.75rem;
+  background-color: rgba(255, 198, 173, 0.4);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.5rem; }
+  .pedir .pedir__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .pedir .pedir__texto p {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      font-size: calc(2rem + calc(3rem + 4vw));
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      line-height: 140px;
+      color: #333333; }
+      .pedir .pedir__texto p:last-of-type {
+        color: #ec6228;
+        margin-top: 1rem; }
+  .pedir .pedir__iconos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .pedir .pedir__iconos .pedir__icono {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 1rem; }
+      .pedir .pedir__iconos .pedir__icono img {
+        width: 80%; }
+      .pedir .pedir__iconos .pedir__icono p {
+        font-family: "Yanone Kaffeesatz", sans-serif;
+        color: #333333;
+        font-size: 1.875rem;
+        line-height: 28px;
+        text-transform: uppercase;
+        margin-top: 1rem; }
+
 /* MOBILE */
 @media (max-width: 576px) {
   .desktop {
@@ -314,16 +399,16 @@ nav {
     display: block; }
   .quienes-somos {
     margin: 2rem 1rem 1rem;
-    padding: 1rem 1rem 0.2rem;
+    padding: 1rem 1rem 0.75rem;
     background-color: rgba(255, 198, 173, 0.4);
     border-radius: 10px; }
     .quienes-somos h1 {
       font-family: "Yanone Kaffeesatz", sans-serif;
       font-size: 1.875rem;
       font-weight: 400;
-      line-height: 28px;
       text-transform: uppercase;
-      margin-bottom: 0.625rem; }
+      margin-bottom: 0.625rem;
+      line-height: 28px; }
     .quienes-somos p {
       margin: 0; }
     .quienes-somos a {
@@ -331,24 +416,27 @@ nav {
       .quienes-somos a.verMas {
         display: flex;
         align-items: center;
-        color: #EC6228;
+        color: #ec6228;
         text-transform: uppercase; }
         .quienes-somos a.verMas p {
           font-size: 0.875rem;
           padding-top: 0.1rem; }
-  h3 {
-    font-family: "Yanone Kaffeesatz", sans-serif;
-    font-size: 1.25rem;
-    text-transform: uppercase; }
   .nuestras-viandas {
     margin: 0 1rem 0.5rem;
-    padding: 0 1rem; } }
+    padding: 0 1rem; }
+    .nuestras-viandas h3 {
+      font-family: "Yanone Kaffeesatz", sans-serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      line-height: 28px; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
   .nosotras {
     margin: 2rem 1rem 1rem;
-    padding: 1rem 1rem 0.2rem;
+    padding: 1rem 1rem 0.75rem;
     background-color: rgba(255, 198, 173, 0.4);
     border-radius: 10px;
     margin-top: 1rem; }
@@ -420,7 +508,7 @@ nav {
             font-size: 0.875rem;
             line-height: 20px; }
     .mainViandas .btnViandas {
-      background-color: #EC6228;
+      background-color: #ec6228;
       width: 100%;
       padding: 0.75rem;
       text-decoration: none; }
@@ -437,7 +525,7 @@ nav {
     height: 5vh;
     min-height: 89px;
     padding-bottom: 1rem;
-    background-color: #D0EBDC; }
+    background-color: #d0ebdc; }
     .contenedor-titulo-viandas .icono-titulo {
       display: flex;
       align-items: flex-start; }
@@ -447,7 +535,7 @@ nav {
       .contenedor-titulo-viandas .icono-titulo h1 {
         margin-bottom: 0; }
   .bg-naranja {
-    background-color: #FFC6AD; }
+    background-color: #ffc6ad; }
   .textoViandas {
     padding-top: 0.375rem;
     padding-bottom: 0.625rem;
@@ -481,7 +569,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #FFC6AD;
+    background-color: #ffc6ad;
     -moz-box-shadow: 0px 0.1px 0.3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0px 0.1px 0.3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0.1px 0.3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.2);
@@ -500,7 +588,7 @@ nav {
       text-transform: uppercase;
       background-color: Transparent;
       background-repeat: no-repeat;
-      border: solid 2px #FFC6AD;
+      border: solid 2px #ffc6ad;
       overflow: hidden;
       transition: all .6s ease; }
       .titulosConsejos .btnConsejos:focus {

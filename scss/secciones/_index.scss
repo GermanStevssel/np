@@ -7,10 +7,7 @@
 	margin-top: 3.5rem;
 
 	h1 {
-		@include h1();
-		font-size: calc(2rem + calc(1.5rem + 1vw));
-		line-height: 70px;
-		margin-bottom: 0;
+		@include titulos(calc(2rem + calc(1.5rem + 1vw)), 70px, 0);
 	}
 
 	p {
@@ -50,6 +47,106 @@
 	}
 }
 
+.nuestras-viandas {
+	h3 {
+		@include titulos(calc(2rem + calc(1.5rem + 1vw)), 70px, 1rem);
+	}
+}
+
+.viandas {
+	background-color: $color-negro2;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	padding-top: 1.75rem;
+
+	.viandas__content {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto;
+		column-gap: 18px;
+
+		.viandas__titulo {
+			@include titulos(calc(2rem + calc(3rem + 10vw)), 95px, 0);
+			color: $color-blanco;
+			align-self: flex-end;
+		}
+
+		.viandas__card {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			text-decoration: none;
+
+			.viandas__cont-nombre {
+				background-color: $color-naranja5;
+				width: 100%;
+
+				.viandas__nombre {
+					text-align: center;
+					color: $color-negro4;
+					font-family: $yanone;
+					font-size: 2.25rem;
+					width: 100%;
+					font-weight: 400;
+					text-transform: uppercase;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+.pedir {
+	@include cuadro-naranja;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5.5rem;
+
+	.pedir__texto {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		p {
+			@include titulos(calc(2rem + calc(3rem + 4vw)), 140px, 0);
+			color: $color-negro4;
+
+			&:last-of-type {
+				color: $color-naranja;
+				margin-top: 1rem;
+			}
+		}
+	}
+
+	.pedir__iconos {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		.pedir__icono {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 1rem;
+
+			img {
+				width: 80%;
+			}
+
+			p {
+				font-family: $yanone;
+				color: $color-negro4;
+				font-size: 1.875rem;
+				line-height: 28px;
+				text-transform: uppercase;
+				margin-top: 1rem;
+			}
+		}
+	}
+}
+
 /* MOBILE */
 @media (max-width: 576px) {
 	.desktop {
@@ -63,7 +160,7 @@
 		@include cuadro-naranja;
 
 		h1 {
-			@include h1;
+			@include titulos();
 		}
 
 		p {
@@ -88,14 +185,12 @@
 		}
 	}
 
-	h3 {
-		font-family: $yanone;
-		font-size: 1.25rem;
-		text-transform: uppercase;
-	}
-
 	.nuestras-viandas {
 		margin: 0 1rem 0.5rem;
 		padding: 0 1rem;
+
+		h3 {
+			@include titulos(1.25rem, 28px, 0.5rem);
+		}
 	}
 }
